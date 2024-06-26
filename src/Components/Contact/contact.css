@@ -1,0 +1,198 @@
+/* General Container */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+/* Text Section */
+.text-container {
+  margin-left: 17rem;
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-container h3 {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-container h1 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-container p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+.icon {
+  display: flex;
+  margin-top: 60px;
+  gap: 7rem;
+}
+
+.icon p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+  color: #777;
+  font-family: "Poppins", sans-serif;
+}
+
+.icon img {
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* Form Section */
+.contact-form-container {
+  flex: 1;
+  padding-left: 30px;
+  margin-left: 50px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Poppins", sans-serif;
+  
+}
+.form-message {
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.form-message span {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  color: #fff; /* White text color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #1c2e4a;
+  background: #23395d;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-form button {
+  padding: 15px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(90deg, 
+  rgba(2,0,36,1) 0%,  rgba(0,212,255,1) 35%, rgba(9,9,121,1) 100%);
+}
+
+.contact-form span {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+/* Media Queries */
+
+/* Adjust layout for tablets */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .contact-form{
+    width: 570px;
+   margin-top: 50px;
+  }
+  .text-container {
+    padding-bottom: 30px; 
+    padding-left: 10px;
+  }
+  .icon{
+ margin-left: -50px;
+  }
+.icon img{
+  width: 65px;
+  height: 65px;
+}
+  
+  
+}
+
+/* Adjust layout for mobile devices */
+@media (max-width: 480px) {
+  .contact-container{
+    padding: 30px;
+  }
+  .contact-form{
+    width: 330px;
+   margin-left: -50px;
+  }
+  .text-container{
+    margin-left: 10rem;
+    padding: 4px 4px;
+  }
+  .text h3 {
+    font-size: 20px;
+  }
+
+  .text h1 {
+    font-size: 28px;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .icon p {
+    font-size: 18px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .contact-form span {
+    font-size: 12px;
+  }
+}

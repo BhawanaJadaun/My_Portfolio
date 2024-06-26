@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #22222225;
+  /* filter: blur(1px); */
+  box-shadow: 4px 4px 3px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  flex-flow: column;
+  padding: 8rem 2rem;
+  transition: left 0.3s ease;
+}
+
+header .logo {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+header .logo span {
+  text-transform: uppercase;
+  color:  rgb(8 145 178);
+}
+.my_img{
+  border-radius: 50%;
+  width: 17rem;
+  height: 17rem;
+  filter: blur(3);
+  object-fit:fill;
+  margin-bottom: 1rem;
+  border:0.5rem solid  rgb(8 145 178);
+  
+  
+}
+
+header .navbar li  a {
+  display: block;
+  padding: 0.4rem;
+  margin: 1.5rem 0;
+  border-radius: 5rem;
+  font-size: 2rem;
+  color: #fff;
+  margin: 2.5rem 0;
+  text-decoration: none;
+}
+
+header .navbar a:hover {
+  color:rgb(21 94 117);
+}
+
+header .follow {
+  display: flex;
+}
+
+header .follow a {
+  color: #fff;
+  font-size: 3.5rem;
+  border-radius: 20px;
+  margin: 0.7rem;
+}
+
+.menu-bars {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10000;
+  background: rgb(21 94 117);;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+  transition: linear .3s ease;
+}
+
+.menu-bars.active {
+  background: #333; /* Adjusted background color for active state */
+}
+
+@media (max-width: 991px) {
+  .menu-bars {
+    display: initial;
+  }
+
+  header {
+    left: -120%;
+    background: #222222be ;
+  }
+
+  header.active {
+    left: 0;
+  }
+}
+
