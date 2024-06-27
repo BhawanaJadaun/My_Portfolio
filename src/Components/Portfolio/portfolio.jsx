@@ -19,7 +19,7 @@ const portfolio = () => {
             <img src={freshmeal} alt="FreshMeal"/>
           </div>
           <div className='text'>
-            <h1>FreshMeal Website <a href=''>code</a></h1>
+            <h1>FreshMeal Website <a href='https://github.com/BhawanaJadaun/FreshmealWebsite'>code</a></h1>
             <p>Collection of movies, personalized user watchlists, and an innovative OpenAI-powered search feature. Enjoy trailer playback and secure user authentication</p>
             <div className='icon'>
             <h4>View Project</h4>

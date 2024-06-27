@@ -173,6 +173,7 @@
   .text-container{
     padding: 4px 4px;
     
+    
   }
   .text h3 {
     font-size: 20px;
@@ -184,7 +185,7 @@
 
   .text p {
     font-size: 16px;
-   
+  
   }
   .icon img{
     width: 33px;

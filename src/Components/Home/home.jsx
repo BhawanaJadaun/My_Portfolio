@@ -37,8 +37,8 @@ const Home = () => {
             <p>A <span className='text-cyan-600'>Frontend Developer</span> passionate about
              creating interactive applications and experiences on the web.</p>
            
-              <button className ='about-btn'><a href='/about'>About me</a> </button>
-              <button className ='work-btn'><a href='/portfolio'>My Works</a></button>
+             <a href='/about'><button className ='about-btn'>About me</button></a>
+             <a href='/portfolio'><button className ='work-btn'>My Works</button></a>
            
           </div>
         </div>

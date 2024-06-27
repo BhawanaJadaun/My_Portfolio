@@ -30,7 +30,7 @@ const About = () => {
           />
         </h1>
         <div className='aboutp-btn'>
-          <button className='project-btn'><a href='/portfolio'>Got a Project</a></button>
+        <a href='/portfolio'><button className='project-btn'>Got a Project</button></a>
         </div>
       </div>
       <div className='about-right'>

@@ -197,28 +197,30 @@
   .portfolio-heading h2 {
     font-size: 1rem;
   }
-
+  .portfolio-main{
+    gap: 2.5rem;
+  }
   .portfolio-heading h1 {
     font-size: 1.5rem;
   }
 
   .portfolio-container .text h1 {
-    font-size: 0.9rem;
+    font-size: 2rem;
   }
 
   .portfolio-container .text h1 a {
-    font-size: 0.7rem;
+    font-size: 1.7rem;
   }
 
   .portfolio-container .text p {
-    font-size: 0.7rem;
+    font-size: 1.3rem;
   }
 
   .icon h4 {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .icon svg {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
