@@ -9,6 +9,8 @@ import react from "../../assets/react.svg";
 import Tailwand from "../../assets/icons8-tailwind-css-48.png";
 import node from "../../assets/icons8-nodejs-48.png";
 import mongodb from "../../assets/icons8-mongodb-a-cross-platform-document-oriented-database-program-24.png";
+import { Link } from "react-router-dom";
+
 
 const About = () => {
   return (
@@ -29,9 +31,9 @@ const About = () => {
             />
           </h1>
           <div className="aboutp-btn">
-            <a href="/portfolio">
+            <Link to ="/portfolio">
               <button className="project-btn">Got a Project</button>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="about-right">

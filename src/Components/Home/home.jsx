@@ -4,7 +4,7 @@ import homeImage from '../../assets/my1.jpg';
 import backgroundVideo from '../../assets/bg.mp4';
 import hand_icon from '../../assets/hand.png'
 import { Typewriter } from 'react-simple-typewriter';
-
+import { Link } from 'react-router-dom';
 const Home = () => {
  
   return (
@@ -37,8 +37,8 @@ const Home = () => {
             <p>A <span className='text-cyan-600'>Frontend Developer</span> passionate about
              creating interactive applications and experiences on the web.</p>
            
-             <a href='/about'><button className ='about-btn'>About me</button></a>
-             <a href='/portfolio'><button className ='work-btn'>My Works</button></a>
+             <Link to ='/about'><button className ='about-btn'>About me</button></Link>
+             <Link to ='/portfolio'><button className ='work-btn'>My Works</button></Link>
            
           </div>
         </div>
