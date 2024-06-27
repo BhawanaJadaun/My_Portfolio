@@ -32,9 +32,10 @@
 }
 
 .text {
-  padding: 2rem;
+  padding: 3rem;
   color: #fff;
   text-align: center;
+  
 }
 
 .hand_icon {
@@ -223,9 +224,11 @@
   .content {
     padding: 2rem;
   }
-
+.text {
+  margin-top: 1rem;
+}
   .text h3 {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   .text h1 {
@@ -248,5 +251,11 @@
   .about-btn, .work-btn {
     margin: 3rem 1rem;
     font-size: 1.1rem;
+  }
+  .right-img {
+    width: 45%; 
+    height: 45%;
+    margin: 0 auto; 
+  
   }
 }
