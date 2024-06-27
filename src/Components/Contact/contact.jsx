@@ -46,18 +46,25 @@ function Contact() {
           I'm currently available to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact me anytime 24/7.
         </p>
         <div className="icon">
+        <p>
+    <a href="https://www.linkedin.com/in/bhawana-jadaun-801674307/" target="_blank" rel="noopener noreferrer">
+    <img src={Linkedin} alt="LinkedIn" />
+    LinkedIn
+  </a>
+  </p>
+<p>
+  <a href="mailto:youremail@example.com">
+    <img src={mail} alt="Mail" />
+    Mail
+  </a>
+</p>
+
           <p>
-            <img src={Linkedin} alt="LinkedIn" />
-            LinkedIn
-          </p>
-          <p>
-            <img src={mail} alt="Mail" />
-            Mail
-          </p>
-          <p>
-            <img src={github} alt="GitHub" />
-            GitHub
-          </p>
+  <a href="https://github.com/BhawanaJadaun" target="_blank" rel="noopener noreferrer">
+    <img src={github} alt="GitHub" />GitHub
+  </a>
+</p>
+
         </div>
       </div>
       <div className="contact-form-container">

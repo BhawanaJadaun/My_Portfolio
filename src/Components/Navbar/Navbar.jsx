@@ -45,8 +45,8 @@ const Navbar = () => {
           </ul>
         </nav>
         <div className='follow'>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-          <a href="https://www.github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/bhawana-jadaun-801674307/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://github.com/BhawanaJadaun" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
           <a href="mailto:example@example.com"><IoMailUnread /></a>
         </div>
       </header>
