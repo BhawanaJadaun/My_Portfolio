@@ -2,7 +2,7 @@ import React from 'react';
 import './portfolio.css';
 import freshmeal from '../../assets/freshm.png';
 import { GoArrowUpRight } from "react-icons/go";
-import Edustify from '../../assets/Education.png';
+import Edustify from '../../assets/Edustify.png';
 import hotstar from '../../assets/hotstar.jpeg';
 import youtube_clone from '../../assets/youtube.jpeg';
 
@@ -32,11 +32,11 @@ const portfolio = () => {
             <img src={Edustify} alt="Edustify"/>
           </div>
           <div className='text'>
-            <h1>Edustify Website <a href=''>code</a></h1>
-            <p>Education platform with a wide range of courses, personalized learning paths, and secure user authentication with a wide range of courses for students</p>
+            <h1>Edustify Website <a href='https://github.com/BhawanaJadaun/Edustify'>code</a></h1>
+            <p>Education platform with a wide range of courses, personalized learning paths, and secure user authentication with a wide range of courses for students Edustudy is an e-learning platform where we provide live online interactive classes to the students of grade </p>
             <div className='icon'>
             <h4>View Project</h4>
-            <GoArrowUpRight />
+            <a href='https://edustify.netlify.app' ><GoArrowUpRight /></a>
             </div>
           </div>
         </div>

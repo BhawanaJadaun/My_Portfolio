@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import homeImage from '../../assets/my1.jpg';
+import homeImage from '../../assets/MY.png';
 import backgroundVideo from '../../assets/bg.mp4';
 import hand_icon from '../../assets/hand.png'
 import { Typewriter } from 'react-simple-typewriter';
