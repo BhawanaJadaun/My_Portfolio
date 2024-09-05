@@ -3,7 +3,7 @@ import './portfolio.css';
 import freshmeal from '../../assets/freshm.png';
 import { GoArrowUpRight } from "react-icons/go";
 import Edustify from '../../assets/Edustify.png';
-import hotstar from '../../assets/hotstar.jpeg';
+import homyz from '../../assets/homyz.png';
 import youtube_clone from '../../assets/youtube.jpeg';
 
 const portfolio = () => {
