@@ -40,16 +40,17 @@ const portfolio = () => {
             </div>
           </div>
         </div>
+       {/* Homyz */}
         <div className='portfolio-container'>
           <div className='portfolio-img'>
-            <img src={hotstar} alt="Hotstar"/>
+            <img src={homyz} alt="Homyz"/>
           </div>
           <div className='text'>
-            <h1>Hotstar Clone <a href=''>code</a></h1>
-            <p>Streaming platform clone with live TV, movies, and sports content. Secure user authentication and personalized recommendations</p>
+            <h1>Homyz website <a href='https://github.com/BhawanaJadaun/Homyz'>code</a></h1>
+            <p>Homyz Real Estate template is also built with Webflow, a powerful web design platform. Easily create a professional-looking website without any coding knowledge.</p>
             <div className='icon'>
-            <h4>View Project</h4>
-            <GoArrowUpRight />
+              <h4>View Project</h4>
+              <a href='https://homyzweb.netlify.app'><GoArrowUpRight /></a>
             </div>
           </div>
         </div>
